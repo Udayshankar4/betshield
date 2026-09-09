@@ -5,6 +5,12 @@ platforms and bot-driven money-laundering activity layered on top of them —
 built and tested inside a self-contained simulated economy (fake in-game
 currency) instead of real financial data.
 
+NOTE FOR MEMBERS:
+Add teammates: repo Settings → Collaborators → add their GitHub usernames (needed since it's private)
+On another machine: git clone https://github.com/Udayshankar4/betshield.git, then same setup (venv, pip install -r requirements.txt, Docker for Postgres)
+One thing to flag: your data/raw/ (PaySim CSV) is .gitignore'd — anyone cloning won't get that file automatically, they'd need to download it themselves from Kaggle separately. Worth a line in your README noting this.
+
+
 ## Project structure
 
 ```
