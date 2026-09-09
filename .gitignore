@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Data (never commit large/raw data - keep repo light)
+data/raw/*.csv
+data/generated/*.csv
+!data/raw/.gitkeep
+!data/generated/.gitkeep
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Env / secrets
+.env
+*.env.local
+
+# OS
+.DS_Store
+
+# DB
+*.sqlite3
+pgdata/

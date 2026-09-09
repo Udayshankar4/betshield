@@ -1,0 +1,11 @@
+pandas
+numpy
+scipy
+scikit-learn
+sqlalchemy
+psycopg2-binary
+matplotlib
+seaborn
+networkx
+jupyter
+python-dotenv
