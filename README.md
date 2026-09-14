@@ -10,7 +10,7 @@ industrial-grade architecture, built and validated at prototype scale.
 NOTE FOR MEMBERS:
 Add teammates: repo Settings → Collaborators → add their GitHub usernames (needed since it's private)
 On another machine: git clone https://github.com/Udayshankar4/betshield.git, then same setup (venv, pip install -r requirements.txt, Docker for Postgres)
-One thing to flag: your data/raw/ (PaySim CSV) is .gitignore'd — anyone cloning won't get that file automatically, they'd need to download it themselves from Kaggle separately. Worth a line in your README noting this.
+One thing to flag: your data/raw/ (PaySim CSV) is .gitignore'd — cloning won't get this file automatically, you will have to download it from Kaggle separately. 
 
 
 ## Project structure
